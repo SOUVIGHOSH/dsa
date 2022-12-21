@@ -37,7 +37,7 @@ class Bipartite {
     }
 }
 
-
+//Bipartite Graph is a graph whoose all nodes can be colored with exactly two colors and no two adjacent nodes have same color.
 // Reference: https://leetcode.com/problems/possible-bipartition
 /*
 Test case
