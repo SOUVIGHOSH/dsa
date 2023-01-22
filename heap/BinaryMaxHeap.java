@@ -9,6 +9,7 @@ public class BinaryMaxHeap {
         list = new ArrayList<>();
         list.add(-1);
     }
+    // logn time complexity
     public void offer(int a){
         list.add(a);
         swim(list.size()-1);
@@ -36,7 +37,7 @@ public class BinaryMaxHeap {
             n=j;
         }
     }
-
+    //O(logn)
     public int poll(){
         if(size()==0) throw new UnsupportedOperationException();
         int max=list.get(1);
