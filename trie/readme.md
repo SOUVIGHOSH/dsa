@@ -26,10 +26,12 @@ the current node mards a valid word or not
  ```
  
  ### Search Algo
+ ```
  Initialize cur=root
  for each character in string
     if cur children does not have the character
       return false
     cur.cur.children.get(character)
  return cur.isWord   
+ ```
  
